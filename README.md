@@ -10,6 +10,17 @@ https://www.kaggle.com/datasets/jeetblahiri/bccd-dataset-with-mask
 The dataset is distributed under the MIT License.
 Users should refer to the original Kaggle page for full licence terms and authorship information.
 
+## How to Run </br>
+Open unet_bccd_segmentation.ipynb in Google Colab.
+
+Install dependencies using:
+pip install -r requirements.txt
+
+Download the BCCD dataset from Kaggle and place the images and masks in the expected directory structure.
+
+Run the notebook cells sequentially.
+
+
 ## Method Summary </br>
 
 The notebook implements:
@@ -26,15 +37,6 @@ The notebook implements:
 
 * qualitative visualisation of predictions vs ground truth
 
-## How to Run </br>
-Open unet_bccd_segmentation.ipynb in Google Colab.
-
-Install dependencies using:
-pip install -r requirements.txt
-
-Download the BCCD dataset from Kaggle and place the images and masks in the expected directory structure.
-
-Run the notebook cells sequentially.
 
 ## Results </br>
 The model achieves stable optimisation and produces masks closely aligned with ground‑truth annotations.
