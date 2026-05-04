@@ -10,7 +10,7 @@ https://www.kaggle.com/datasets/jeetblahiri/bccd-dataset-with-mask
 The dataset is distributed under the MIT License.
 Users should refer to the original Kaggle page for full licence terms and authorship information.
 
-## Overview </br>
+## Method Summary </br>
 
 The notebook implements:
 
