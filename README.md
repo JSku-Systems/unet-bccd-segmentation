@@ -31,8 +31,6 @@ The notebook implements:
 The model achieves stable optimisation and produces masks closely aligned with ground‑truth annotations.
 Limitations and potential extensions (e.g., instance segmentation, uncertainty estimation) are discussed in the notebook.
 
-## License
+
+
 This repository is released under the MIT License.
-The dataset retains its own licence as specified by the original Kaggle author.
-
-
