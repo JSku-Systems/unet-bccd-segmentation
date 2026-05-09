@@ -1,4 +1,5 @@
 # U‑Net Cell Segmentation
+This repository contains a complete and reproducible deep‑learning workflow for semantic cell segmentation using a U‑Net architecture trained on the BCCD dataset. The project integrates data preparation, augmentation, model training, evaluation, and post‑segmentation morphological analysis to demonstrate both pixel‑wise accuracy and population‑level geometric fidelity in microscopy imaging.
 
 ## Dataset Notice </br>
 This project uses the BCCD Dataset with Masks, published on Kaggle by Jeet B. Lahiri.
@@ -23,26 +24,42 @@ Run the notebook cells sequentially.
 
 ## Method Summary </br>
 
-The notebook implements:
+The notebook implements :
 
-* deterministic preprocessing (resizing, normalisation, dataset splitting)
+* Deterministic preprocessing  
+resizing, normalisation, train/validation/test splitting
 
-* training‑only augmentation using Albumentations
+* Training‑only augmentation  
+using Albumentations to introduce realistic variability
 
-* a standard U‑Net encoder–decoder with skip connections
+* U‑Net encoder–decoder architecture  
+with skip connections for spatial detail preservation
 
-* combined Binary Cross‑Entropy + Dice loss
+* Combined BCE + Dice loss  
+for stable optimisation on small biomedical datasets
 
-* evaluation using Dice, IoU, precision, and recall
+* Quantitative evaluation  
+using Dice, IoU, precision, and recall
 
-* qualitative visualisation of predictions vs ground truth
+* Qualitative visualisation  
+comparing predictions with ground‑truth masks
+
+* Post‑segmentation morphological analysis  
+using connected‑component labelling to extract instance‑level geometric features
+(area, perimeter, circularity, eccentricity)
+
+* Population‑level feature comparison  
+assessing whether predicted masks preserve biologically meaningful shape distributions
 
 
 ## Results </br>
-The model achieves stable optimisation and produces masks closely aligned with ground‑truth annotations.
-Limitations and potential extensions (e.g., instance segmentation, uncertainty estimation) are discussed in the notebook.
+The model achieves stable optimisation and produces semantic segmentation masks that closely align with ground‑truth annotations.
+Population‑level morphological analysis shows strong agreement in area and circularity distributions, with expected perimeter deviations due to contour smoothing.
+These findings demonstrate that the model captures both pixel‑wise accuracy and biologically relevant geometric properties across the test set.
+
+Limitations and potential extensions — including instance‑aware architectures, multi‑dataset training, and uncertainty estimation — are discussed in the notebook.
 
 
 ## License </br>
 This project is released under the MIT License.
-The dataset retains its own licence as specified by the original Kaggle author.
+The dataset retains its own licence as indicated in the dataset notice.
