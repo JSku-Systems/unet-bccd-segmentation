@@ -21,6 +21,15 @@ Download the BCCD dataset from Kaggle and place the images and masks in the expe
 
 Run the notebook cells sequentially.
 
+## Model & Dataset Hosting
+The trained U‑Net model and processed test split are hosted on Hugging Face:
+
+Model: best_model.keras
+
+Test Data: X_test.npy, Y_test.npy
+
+The segmentation viewer app automatically downloads these files using hf_hub_download.
+
 
 ## Method Summary </br>
 
