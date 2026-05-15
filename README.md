@@ -21,16 +21,6 @@ Download the BCCD dataset from Kaggle and place the images and masks in the expe
 
 Run the notebook cells sequentially.
 
-## Model & Dataset Hosting
-The trained U‑Net model and processed test split are hosted on Hugging Face:
-
-Model: best_model.keras
-
-Test Data: X_test.npy, Y_test.npy
-
-The segmentation viewer app automatically downloads these files using hf_hub_download.
-
-
 ## Method Summary </br>
 
 The notebook implements :
@@ -68,6 +58,32 @@ These findings demonstrate that the model captures both pixel‑wise accuracy an
 
 Limitations and potential extensions — including instance‑aware architectures, multi‑dataset training, and uncertainty estimation — are discussed in the notebook.
 
+
+## Segmentation Viewer App
+
+Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+Run the viewer:
+
+```
+python app/cell_segmentation_viewer.py
+```
+
+The app downloads the trained model and processed test data from their public Hugging Face repositories and displays predictions alongside ground‑truth masks.  
+A short demo video (`cell_segmentation_demo.mp4`) is included in the `app/` folder.
+
+## Model & Dataset Hosting
+The trained U‑Net model and processed test split are hosted on Hugging Face:
+
+Model: best_model.keras
+
+Test Data: X_test.npy, Y_test.npy
+
+The segmentation viewer app automatically downloads these files using hf_hub_download.
 
 ## License </br>
 This project is released under the MIT License.
