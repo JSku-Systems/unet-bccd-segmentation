@@ -62,11 +62,7 @@ Limitations and potential extensions (including instance‑aware architectures, 
 
 ## Segmentation Viewer App
 
-Install dependencies:
-
-```
-pip install -r requirements.txt
-```
+Ensure dependencies are installed (see instructions above).
 
 Run the viewer:
 
