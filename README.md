@@ -84,7 +84,7 @@ Model: best_model.keras
 
 Test Data: X_test.npy, Y_test.npy
 
-The segmentation viewer app automatically downloads these files using hf_hub_download.
+These files are automatically retrieved using `hf_hub_download` when the app is launched.
 
 ## License </br>
 This project is released under the MIT License.
