@@ -71,7 +71,13 @@ python app/cell_segmentation_viewer.py
 ```
 
 The app downloads the trained model and processed test data from their public Hugging Face repositories and displays predictions alongside ground‑truth masks.  
-A short demo video (`cell_segmentation_demo.mp4`) is included in the `app/` folder.
+The short demo video (`cell_segmentation_demo.mp4`) is included in the `app/` folder.
+
+
+
+https://github.com/user-attachments/assets/b04e9757-6186-4c65-821c-2bf1eb1fa17c
+
+
 
 ## Model & Processed Test Set Hosting
 The trained U‑Net model and processed test split are hosted on Hugging Face:
