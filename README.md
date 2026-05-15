@@ -15,8 +15,9 @@ Users should refer to the original Kaggle page for full licence terms and author
 Open unet_bccd_segmentation.ipynb in Google Colab.
 
 Install dependencies using:
+```
 pip install -r requirements.txt
-
+```
 Download the BCCD dataset from Kaggle and place the images and masks in the expected directory structure.
 
 Run the notebook cells sequentially.
