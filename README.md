@@ -76,7 +76,7 @@ python app/cell_segmentation_viewer.py
 The app downloads the trained model and processed test data from their public Hugging Face repositories and displays predictions alongside ground‑truth masks.  
 A short demo video (`cell_segmentation_demo.mp4`) is included in the `app/` folder.
 
-## Model & Dataset Hosting
+## Model & Processed Test Set Hosting
 The trained U‑Net model and processed test split are hosted on Hugging Face:
 
 Model: best_model.keras
