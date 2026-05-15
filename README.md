@@ -11,7 +11,7 @@ https://www.kaggle.com/datasets/jeetblahiri/bccd-dataset-with-mask
 The dataset is distributed under the MIT License.
 Users should refer to the original Kaggle page for full licence terms and authorship information.
 
-## How to Run </br>
+## How to Run Notebook </br>
 Open unet_bccd_segmentation.ipynb in Google Colab.
 
 Install dependencies using:
