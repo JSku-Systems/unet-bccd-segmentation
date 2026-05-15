@@ -6,6 +6,7 @@ scikit-image==0.22.0
 scikit-learn==1.4.0
 albumentations==1.4.3
 opencv-python-headless==4.9.0.80
+
 scipy
 gradio
 huggingface_hub
