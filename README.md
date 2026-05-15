@@ -71,7 +71,7 @@ python app/cell_segmentation_viewer.py
 ```
 
 The app downloads the trained model and processed test data from their public Hugging Face repositories and displays predictions alongside ground‑truth masks.  
-The short demo video (`cell_segmentation_demo.mp4`) is included in the `app/` folder.
+Below is a brief demonstration of the Gradio user interface, showing how the model predicts in real-time.
 
 
 
