@@ -57,7 +57,7 @@ The model achieves stable optimisation and produces semantic segmentation masks 
 Population‑level morphological analysis shows strong agreement in area and circularity distributions, with expected perimeter deviations due to contour smoothing.
 These findings demonstrate that the model captures both pixel‑wise accuracy and biologically relevant geometric properties across the test set.
 
-Limitations and potential extensions — including instance‑aware architectures, multi‑dataset training, and uncertainty estimation — are discussed in the notebook.
+Limitations and potential extensions (including instance‑aware architectures, multi‑dataset training, and uncertainty estimation) are discussed in the notebook.
 
 
 ## Segmentation Viewer App
