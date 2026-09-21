@@ -53,7 +53,7 @@ assessing whether predicted masks preserve biologically meaningful shape distrib
 
 
 ## Results </br>
-The model achieves stable optimisation and produces semantic segmentation masks that closely align with ground‑truth annotations.
+Training converges stably and the predicted masks closely match the ground-truth annotations.
 Population‑level morphological analysis shows strong agreement in area and circularity distributions, with expected perimeter deviations due to contour smoothing.
 These findings demonstrate that the model captures both pixel‑wise accuracy and biologically relevant geometric properties across the test set.
 
