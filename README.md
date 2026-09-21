@@ -55,7 +55,7 @@ assessing whether predicted masks preserve biologically meaningful shape distrib
 ## Results </br>
 Training converges stably and the predicted masks closely match the ground-truth annotations.
 Population‑level morphological analysis shows strong agreement in area and circularity distributions, with expected perimeter deviations due to contour smoothing.
-These findings demonstrate that the model captures both pixel‑wise accuracy and biologically relevant geometric properties across the test set.
+The model achieves strong pixel-level agreement and preserves shape distributions at the population level, with the main deviation being perimeter overestimation from contour smoothing.
 
 Limitations and potential extensions (including instance‑aware architectures, multi‑dataset training, and uncertainty estimation) are discussed in the notebook.
 
