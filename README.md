@@ -24,7 +24,7 @@ Run the notebook cells sequentially.
 
 ## Method Summary </br>
 
-The notebook implements :
+The notebook covers:
 
 * Deterministic preprocessing  
 resizing, normalisation, train/validation/test splitting
