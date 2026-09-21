@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Cell Segmentation Viewer App
-A inference and visualisation tool for exploring U-Net predictions.
+An inference and visualisation tool for exploring U-Net predictions.
 """
 
 import numpy as np
