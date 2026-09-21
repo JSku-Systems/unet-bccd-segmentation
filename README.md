@@ -1,5 +1,5 @@
 # U‑Net Cell Segmentation
-This repository contains a deep-learning pipeline for semantic cell segmentation using a U‑Net architecture trained on the BCCD dataset. The project integrates data preparation, augmentation, model training, evaluation, and post‑segmentation morphological analysis to demonstrate both pixel‑wise accuracy and population‑level geometric fidelity in microscopy imaging.
+This repository contains a deep-learning pipeline for semantic cell segmentation using a U‑Net architecture trained on the BCCD dataset. The project integrates data preparation, augmentation, model training, evaluation, and post‑segmentation morphological analysis evaluated at both the pixel level and the population level using morphological shape metrics.
 
 ## Dataset Notice </br>
 This project uses the BCCD Dataset with Masks, published on Kaggle by Jeet B. Lahiri.
